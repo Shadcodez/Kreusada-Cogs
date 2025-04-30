@@ -9,11 +9,11 @@ from redbot.core.utils.chat_formatting import quote
 
 CARD_TYPES_DATA = [
     {
-        "name": "Christmas",
-        "description": "Send a Christmas card",
-        "emoji": "\U0001f384",
-        "prompt": "Merry Christmas, {recipient}!",
-        "colour": 0x2B730A,
+        "name": "General Card",
+        "description": "Send a generic card",
+        "emoji": "\U0001F35E",
+        "prompt": "loaf...",
+        "colour": 0x45818E,
     },
     {
         "name": "Halloween",
@@ -126,6 +126,13 @@ CARD_TYPES_DATA = [
         "emoji": "\U0001f38a",
         "prompt": "Congratulations! You did so well.",
         "colour": 0x446DD4,
+    },
+    {
+        "name": "Christmas",
+        "description": "Send a Christmas card",
+        "emoji": "\U0001f384",
+        "prompt": "Merry Christmas, {recipient}!",
+        "colour": 0x2B730A,
     },
 ]
 
